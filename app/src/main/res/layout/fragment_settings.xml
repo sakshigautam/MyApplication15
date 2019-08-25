@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:text="              SETTINGS"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOTIFICATIONS"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACCOUNT"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HELP"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FEEDBACK"/>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

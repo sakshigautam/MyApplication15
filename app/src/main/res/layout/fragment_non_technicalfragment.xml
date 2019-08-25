@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NonTechnicalfragment"
+    android:background="@drawable/pp"
+    android:label="Non Technical Societies">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="1000dp"
+            android:layout_height="wrap_content"
+            android:text="NON-TECHNICAL SOCIETIES"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textStyle="bold"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:text="VERVE"
+            android:drawableLeft="@drawable/ic_queue_music_blac"
+            android:layout_gravity="center"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+            android:text="ILLUMINATI"
+            android:drawableLeft="@drawable/ic_record_voice_over_black"
+            android:layout_gravity="center"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="360dp"
+            android:layout_height="40dp"
+            android:text="ORIGO"
+            android:drawableLeft="@drawable/ic_brush_black"
+            android:layout_gravity="center"/>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:text="YFAC"
+            android:drawableLeft="@drawable/ic_spa_black"
+            android:layout_gravity="center"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:text="DIVERCITY"
+            android:drawableLeft="@drawable/ic_group_black"
+            android:layout_gravity="center"/>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
